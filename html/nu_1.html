@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nữ 1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .mot {
+            float: left;
+            width: 100%;
+            height: 100px;
+            background-color: #e1d2d2;
+            padding-top: 5px;
+            position: fixed;
+            box-shadow: 5px 5px 10px 0px #888888;
+        }
+        
+        .mot .logo {
+            float: left;
+            background-image: url(/image/logo.png);
+            width: 17%;
+            height: 80px;
+            margin-left: 15px;
+            margin-bottom: 50px;
+            margin-top: 8px;
+        }
+        
+        .mot .menu {
+            margin-left: 350px;
+            margin-top: 30px;
+            padding-bottom: 15px;
+            color: white;
+            box-shadow: inset;
+        }
+        
+        .mot .menu b a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        input[type="text"] {
+            margin-left: 100px;
+            width: 15%;
+            height: 30px;
+            background-image: url(/image/search.png);
+            background-repeat: no-repeat;
+            background-size: px 25px;
+            padding-left: 25px;
+        }
+        
+        .mot .menu a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        
+        .mot .menu .login, .sign_out, .size,.dat_hang {
+            background-color: rgb(89, 152, );
+            width: 150px;
+            height: 30px;
+            background-repeat: no-repeat;
+            text-align: center;
+            border-radius: 5px;
+            padding-left: 15px;
+            background-position: 5px center;
+            margin-left: 15px;
+            transition: background-color 0.5s ease-in-out 0s;
+        }
+        
+        .mot .menu .login:hover, .sign_out:hover, .size:hover,.dat_hang:hover {
+            background-color: black; /* Màu khi hover */
+            color: aliceblue;
+        }
+        
+        .hai {
+            width: auto;
+            height: 700px;
+            background-color: #888888;
+            
+        }
+        .hai .trai{
+            float: left;
+            width: 300px;
+        }
+        .hai .trai img {
+            width: 300px;
+            margin-top: 120px;
+            margin-left: 100px;
+        }
+        .hai .phai img{
+            float: left;
+            width: 30px;
+        }
+        .hai .phai {
+            float: left;
+            margin-top: 120px;
+            margin-left: 130px;
+            font-size: 15px;
+        }
+        .cuoi{
+            background-color: #ffffff;
+            width: auto;
+            height: 300px;
+            padding-top: 50px ;
+            box-shadow: 5px 5px 10px 0px #888888;
+        }
+        .cuoi .XH{
+            text-align: center;
+            margin-left:700px ;
+            height: 50px;
+            width: 150px;
+            background-size: 60px;
+        }
+        .cuoi p{
+            font-size: 20px;
+            color: #000;
+        }
+        .cuoi .cuoi3{
+            margin-top: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="mot" >
+        <div class="logo">
+        </div>
+        <div class="menu">
+            <b>
+            <a href="/html/final.html"> TRANG CHỦ</a>
+            </b>
+            <font color="black" >
+             <input style="margin-left: 100px; width:15%;height:30px; background-image:url(/image/search.png);background-repeat: no-repeat;background-size: 25px 25px;padding-left: 25px;"   type="text" placeholder="Tìm kiếm">
+            </font>
+            <A href="/html/dangnhap.html"><button class="login"> Đăng Nhập</button></A>
+            <a href="/html/dangki.html"><button class="sign_out"> Đăng Kí</button></a>
+        </div>
+    </div>
+    
+    <div class="hai">
+        <div class="trai">
+            <img src="/image/nu1.jpg">
+        </div>
+
+        <div class="phai">
+            <p>Áo sweater nữ thiết kế dễ thương sành điệu với chất nỉ ngoại thoáng mát cho bạn trẻ luôn tự tin.</p>
+            <img src="/image/fire.png">
+            <p style="margin-top: 5px; font-size:20px">OUTLET GU ĐƠN GIẢN</p>
+            <p style="margin-top: 10px;">Gía gốc: <b style="text-decoration: line-through;color:red;font-size:15px">325,000</b> đ</p>
+            <p style="margin-top: 5px;font-size:20px">Gía Sale:<b style="color:red;font-size:20px"> 150,000</b> đ</p>
+            <p style="margin-top: 5px;">Áp dụng đến hết 10/04/2024</p>
+            <button id="showimage" style="padding: 5px;" class="size" onclick="showimg()">Hướng dẫn chọn size</button>
+            <img id="imagePlaceholder" src="/image/size.jpg" alt="Ảnh mẫu" style="display: none;width: 300px;">
+            <p style="margin-top: 15px; font-size:18px">Mô tả sản phẩm</p>
+            <p style="margin-top: 5px; font-size:15px">Áo sweater nữ <br>Chất liệu:  Nỉ ngoại nhập
+            <br>Thành phần:  Nỉ ngoại nhập<br>- Mềm mịn & Dày dặn<br>- Chống tia UV<br>- Thông thoáng<br>- Ít nhăn<br>+ Đường chỉ may tinh tế sắc sảo & tinh tế.<br></p>
+            <button style="padding: 5px;" class="dat_hang">Đặt hàng</button>
+        </div>
+        <script src="/js/showimg.js"></script>
+    </div>
+    <footer class="cuoi"><font color="white">
+        <p class="XH">Mạng Xã Hội
+            <a href="https://www.facebook.com/profile.php?id=100043794682851"><img src="/image/fb.png"></a>
+            <a href="https://www.youtube.com/channel/UCVxs7jWqlZCL3GuxFfh5pYw"><img src="/image/yt.png"></a>
+            
+        </p>
+        
+        <div class="cuoi3">
+            <hr style="box-shadow: inset;">
+            <p>&copy; 2024 - Luz .. Vy</p>
+        </div>
+    </font>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="/js/changeimage.js"></script>
+</body>
+</html>

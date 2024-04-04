@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mot{
+    width: 1900px;
+    height: 100px;
+    background-color: #e1d2d2;
+    padding-top: 5px ;
+    position:fixed;
+    box-shadow:inset;
+    box-shadow: 5px 5px 10px 0px #888888;
+}
+.mot_2 img{
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    margin-top: 106px;
+    margin-left: auto;
+    border: solid 1px slategrey;
+}
+.mot .logo{
+    float: left;
+    background-image: url(/image/logo.png);
+    width: 14%;
+    height: 80px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    margin-top: 8px;
+}
+.mot .menu{
+    margin-left: 350px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    color: white;
+    box-shadow:inset;
+}
+.menu a:hover{
+    font-size: 150%;
+}
+.menu a {
+    text-decoration: none;
+    color: black; 
+    font-size: 20px;
+  }
+.mot .menu .login{
+    background-image: url(/image/user.png);
+    width: 150px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    padding-left: 15px;
+    background-position: 5px center;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    transition: background-color 0.5s ease-in-out 0s;
+}
+.mot .menu .login:hover{
+    background-color: rgb(89, 152, 211);
+}
+.mot .menu .sign_out{
+    background-image: url(/image/sign_out.png);
+    width: 150px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    padding-left: 15px;
+    background-position: 5px center;
+    border-radius: 5px;
+    transition: background-color 0.5s ease-in-out 0s;
+}
+.mot .menu .sign_out:hover{
+    background-color: rgb(89, 152, 211);
+}
+.hai{
+    width: auto;
+    height: 900px;
+    box-shadow: 5px 5px 10px 0px #888888;
+    display: block;
+}
+.headline{
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+    margin: 40px 0px; 
+}
+.hai h3{
+
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: #555;
+    font-weight: 600;
+}
+
+.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #726ddf;
+    color: #ffffff;
+    padding: 10px 0px;
+    margin-top: 262px;
+    margin-bottom: 20px;
+}
+
+.hai p{
+    margin-top: 0px;
+    
+    text-align: center;
+    color: red;
+}
+.hai .nam_1{
+    display: block;
+    float: left;
+    background-image: url(/image/nam1.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 170px;
+    transition: 1s;
+}
+.hai .nam_1:hover{
+    background-image: url(/image/nam1_1.jpg);
+}
+.hai .nam_2{
+    float: left;
+    background-image: url(/image/nam2.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.hai .nam_2:hover{
+    background-image: url(/image/nam2_1.jpg);
+}
+.hai .nam_3{
+    float: left;
+    background-image: url(/image/nam3.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.hai .nam_3:hover{
+    background-image: url(/image/nam3_1.jpg);
+}
+.hai .nam_4{
+    float: left;
+    background-image: url(/image/nam4.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.hai .nam_4:hover{
+    background-image: url(/image/nam4_1.jpg);
+}
+.hai .nam_5{
+    float:left;
+    background-image: url(/image/nam5.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 500px;
+    margin-left: 170px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.hai .nam_5:hover{
+    background-image: url(/image/nam5_1.jpg);
+}
+.hai .nam_6{
+    float: left;
+    background-image: url(/image/nam6.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.hai .nam_6:hover{
+    background-image: url(/image/nam6_1.jpg);
+}
+.hai .nam_7{
+    float: left;
+    background-image: url(/image/nam7.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.hai .nam_7:hover{
+    background-image: url(/image/nam7_1.jpg);
+}
+.hai .nam_8{
+    float: left;
+    background-image: url(/image/nam8.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.hai .nam_8:hover{
+    background-image: url(/image/nam8_1.jpg);
+}
+
+#comment{
+    width: auto;
+    height: 600px;
+    box-shadow: 5px 5px 10px 0px #888888;
+}
+
+#comment .headline {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+    margin: 40px 0px; 
+}
+
+#comment .headline h3 {
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: #555;
+    font-weight: 600;
+    margin-right: 350px;
+}
+
+
+#comment-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 350px;
+    list-style: none;
+    overflow: hidden;
+}
+
+#list-comment {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    transition:0.5s;
+}
+
+#list-comment .item {
+    width: 100%;
+    height: 100%;
+    background:#362f2f;
+    border-radius: 20px;
+    padding-top:50px;
+}
+
+#list-comment .item .avatar {
+    text-align: center;
+    margin-top:13px;
+}
+
+#list-comment .item .stars {
+    display: flex;
+    margin:0px auto;
+    width: 50%;
+    margin-top:32px;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-comment .item .name {
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+}
+
+#list-comment .item .text {
+    padding:20px 50px;
+    color:#fff;
+   
+}
+.nam{
+    width: auto;
+    height: 950px;
+    box-shadow: 5px 5px 10px 0px #888888;
+}
+
+.nam h3{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: #555;
+    font-weight: 600;
+}
+.nam p{
+    margin-top: 300px;
+    text-align: center;
+    color: red;
+}
+.nam .nu_1{
+    float: left;
+    background-image: url(/image/nu1.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 170px;
+    transition: 1s;
+}
+.nam .nu_1:hover{
+    background-image: url(/image/nu1_1.jpg);
+}
+.nam .nu_2{
+    float: left;
+    background-image: url(/image/nu2.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.nam .nu_2:hover{
+    background-image: url(/image/nu2_1.webp);
+}
+.nam .nu_3{
+    float: left;
+    background-image: url(/image/nu3.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.nam .nu_3:hover{
+    background-image: url(/image/nu3_1.webp);
+}
+.nam .nu_4{
+    float: left;
+    background-image: url(/image/nu4.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    transition: 1s;
+}
+.nam .nu_4:hover{
+    background-image: url(/image/nu4_1.webp);
+}
+.nam .nu_5{
+    float:left;
+    background-image: url(/image/nu5.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 500px;
+    margin-left: 170px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.nam .nu_5:hover{
+    background-image: url(/image/nu5_1.webp);
+}
+.nam .nu_6{
+    float: left;
+    background-image: url(/image/nu6.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.nam .nu_6:hover{
+    background-image: url(/image/nu6_1.webp);
+}
+.nam .nu_7{
+    float: left;
+    background-image: url(/image/nu7.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.nam .nu_7:hover{
+    background-image: url(/image/nu7_1.webp);
+}
+.nam .nu_8{
+    float: left;
+    background-image: url(/image/nu8.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-top: 50px;
+    transition: 1s;
+}
+.nam .nu_8:hover{
+    background-image: url(/image/nu8_1.webp);
+}
+.support{
+    width: auto;
+    height: 45px;
+}
+.support p{
+    color: #e11717;
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.cuoi{
+    background-color: #ffffff;
+    width: auto;
+    height: 300px;
+    padding-top: 50px ;
+    box-shadow: 5px 5px 10px 0px #888888;
+}
+.cuoi .XH{
+    text-align: center;
+    margin-left:700px ;
+    height: 50px;
+    width: 150px;
+    background-size: 60px;
+}
+.cuoi p{
+    font-size: 20px;
+    color: #000;
+}
+.cuoi .cuoi3{
+    margin-top: 150px;
+    text-align: center;
+}
+
